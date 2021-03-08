@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mini_statement">
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_CBEBirr"-->
+<!--        android:name="com.example.cbebirr.ui.ministatement.MiniStatementFragment"-->
+<!--        android:label="@string/menu_cbebirr"-->
+<!--        tools:layout="@layout/fragment_c_b_e_birr" />-->
+
+    <fragment
+        android:id="@+id/nav_mini_statement"
+        android:name="com.example.cbebirr.ui.ministatement.MiniStatementFragment"
+        android:label="@string/menu_ministatement"
+        tools:layout="@layout/fragment_mini_statement" />
+
+    <fragment
+        android:id="@+id/nav_change_pin"
+        android:name="com.example.cbebirr.ui.changepin.ChangePINFragment"
+        android:label="@string/menu_changepin"
+        tools:layout="@layout/fragment_change_pin" />
+
+    <fragment
+        android:id="@+id/nav_manage_beneficiary"
+        android:name="com.example.cbebirr.ui.managebeneficiary.ManageBeneficiaryFragment"
+        android:label="@string/menu_manegebeneficiary"
+        tools:layout="@layout/activity_change_p_i_n" />
+    <fragment
+        android:id="@+id/nav_manag_bill"
+        android:name="com.example.cbebirr.ui.managebill.ManagBillFragment"
+        android:label="@string/menu_manegebill"
+        tools:layout="@layout/fragment_manag_bill" />
+    <fragment
+        android:id="@+id/nav_change_language"
+        android:name="com.example.cbebirr.ui.changelanguage.ChangeLanguageFragment"
+        android:label="@string/menu_changelanguage"
+        tools:layout="@layout/fragment_change_language" />
+    <fragment
+        android:id="@+id/nav_log_out"
+        android:name="com.example.cbebirr.ui.logout.LogOutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_log_out" />
+
+</navigation>

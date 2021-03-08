@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_CBEBirr"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="CBEBirr" />-->
+        <item
+            android:id="@+id/nav_mini_statement"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mini Statement" />
+        <item
+            android:id="@+id/nav_change_pin"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Change PIN" />
+        <item
+            android:id="@+id/nav_manage_beneficiary"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Manage Beneficiary" />
+        <item
+            android:id="@+id/nav_manag_bill"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Manage Bill" />
+        <item
+            android:id="@+id/nav_change_language"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Change Language" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Log Out" />
+    </group>
+</menu>
